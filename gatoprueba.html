@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TicTacToe</title>
+<link rel="stylesheet" type="text/css" href="assets/css/TicTacToe.css" />
+<script type="text/javascript" src="assets/js/TicTacToe.js">
+</script>
+
+<script type="text/javascript" src="assets/js/cpu.js">
+</script>
+
+<script>
+  	function mostrar2(){
+	document.getElementById('cuerpo').style.display = 'block';}
+
+
+
+</script>
+
+<script>
+  	function mostrar(){
+	document.getElementById('miCanvas').style.display = 'block';}
+	
+</script>
+
+</head>
+<style>
+		body{
+			width:800px;
+			margin:auto;
+		}
+		h1{
+			text-align:center
+		}
+		#miCanvas{
+			border:solid 2px;
+		}
+		#cuerpo{
+						border:solid 2px;
+
+		}
+	</style>
+<body>
+<input type="button" value="versus" onclick="mostrar2()">
+<input type="button" value="cpu" onclick="mostrar()">
+
+
+
+<div id="cuerpo" style='display:none;'>
+  <button id="b11" class="buttons" name="b1" onclick="actions(this)"></button>
+  <button id="b12" class="buttons" name="b2" onclick="actions(this)"></button>
+  <button id="b13" class="buttons" name="b3" onclick="actions(this)"></button>
+  <button id="b21" class="buttons" name="b4" onclick="actions(this)"></button>
+  <button id="b22" class="buttons" name="b5" onclick="actions(this)"></button>
+  <button id="b23" class="buttons" name="b6" onclick="actions(this)"></button>
+  <button id="b31" class="buttons" name="b7" onclick="actions(this)"></button>
+  <button id="b32" class="buttons" name="b8" onclick="actions(this)"></button>
+  <button id="b33" class="buttons" name="b9" onclick="actions(this)"></button>
+ </div>
+
+ <canvas id="miCanvas" style='display:none;'> <canvas>
+
+</body>
+</html>
+
+
+
