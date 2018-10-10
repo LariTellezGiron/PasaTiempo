@@ -43,4 +43,17 @@ display: table;
   display:block;
   margin-left: auto;
   margin-right: auto;
+  height: 50px;
+  width: 120px;
+  margin-top: 15px;
+}
+#area{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 150px;
+  margin-top: 15px;
+  background-color: #007da7;
+  
 }

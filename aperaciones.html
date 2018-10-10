@@ -8,14 +8,53 @@
  <link rel="stylesheet" type="text/css" href="assets/css/operaciones.css" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
 </head>
 <style type="text/css">
   
 </style>
 <body>
-
-<button id="centrado" type="button" class="btn btn-primary">Primary</button>
-<button id="centrado" type="button" class="btn btn-secondary">Secondary</button>
-<button id="centrado" type="button" class="btn btn-success">Success</button>
+<div id="principal" style='display:block;'>
+<button id="centrado" type="button" class="btn btn-primary" onclick="mostrar()">basico</button>
+<button id="centrado" type="button" class="btn btn-secondary" onclick="mostrar2()">medio</button>
+<button id="centrado" type="button" class="btn btn-success" onclick="ejemplo2()" >avanzado</button>
+</div>
+<div id="segundo"  style='display:none;'>
+<button id="centrado" type="button" class="btn btn-success" onclick="asignar()">suma</button>
+<button id="centrado" type="button" class="btn btn-danger">resta</button>
+<button id="centrado" type="button" class="btn btn-warning">multiplicasion</button>
+<button id="centrado" type="button" class="btn btn-info">division</button>
+</div>
+<div>
+	<textarea id="area" style='display:none;'> mi area</textarea> 
+</div>
 </body>
+<script>
+var aleatorio1,  aleatorio2;
+
+  	function mostrar(){
+	document.getElementById('principal').style.display = 'none';
+	document.getElementById('area').style.display = 'block';
+	document.getElementById('segundo').style.display = 'block';}
+
+function generaraleatorio() {
+return (Math.round(Math.random()*10));
+
+};
+
+function asignar(){
+	 aleatorio1=generaraleatorio();
+	 aleatorio2=generaraleatorio();
+document.getElementById("area").value=aleatorio1 +"+"+ aleatorio2;
+	//alert("Número aleatorio entre 0 y 10:");
+}
+function ale(){
+	alert("alerta");
+
+}
+</script>
+
 </html>
