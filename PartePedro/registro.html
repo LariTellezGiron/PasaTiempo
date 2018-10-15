@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>   
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">    
+
+<link rel=StyleSheet href="css/estilos.css" type="text/css">   
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>    
+</head>
+
+<body>
+<!-- Formulario-->
+    <label id="txtdatos">Mis Datos</label>
+    <div id="formulario">    
+<form>
+    <div class="" id="f1">
+        <label class="texto">Nombre</label>
+        <div class="form-group col-md-6">
+            <label for="txtnombre">Nombre</label>
+            <input type="text" class="form-control" id="txtnombre" placeholder="Nombre">
+        </div>
+        
+        <div class="form-group col-md-6">
+            <label for="txtapellidos">Apellidos</label>
+            <input type="text" class="form-control" id="txtapellidos" placeholder="Apellidos">
+        <button type="button" class="btn btn-primary btnActualizar">Actualizar</button>
+        </div>
+    </div>
+    <div class="form-group" id="f2">
+        <label class="texto">Usuario/E-mail</label>
+        <div class="form-group col-md-6">
+            <label for="txtmail">Email</label>
+            <input type="email" class="form-control" id="txtmail" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="txtusuario">Usuario</label>
+            <input type="text" class="form-control" id="txtusuario" placeholder="Usuario">
+        <button type="button" class="btn btn-primary btnActualizar">Actualizar</button>
+        </div>
+    </div>
+        <div class="form-group" id="f3">
+        <label class="texto">Contraseña</label>
+        <div class="form-group col-md-6">
+            <label for="txtcontra">contraseña</label>
+            <input type="password" class="form-control" id="txtcontra" placeholder="Contraseña">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="txtcontra2">Password</label>
+            <input type="password" class="form-control" id="txtcontra2" placeholder="Repetir Contraseña">
+       <button type="button" class="btn btn-primary btnActualizar">Actualizar</button>
+            </div>
+    </div>
+
+</form>
+        
+</div>        
+<!--cierra formulario-->    
+  <div class="" id="f4">
+
+        
+        <div class="form-group col-md-6">
+            <label for="txtlicencia">Mis Licencias</label>
+            <input type="text" class="form-control" id="txtlicencia" placeholder="Agregar Licencia">
+        <button type="button" class="btn btn-primary btnActualizar" id="lic">Agregar</button>
+        </div>
+    </div> 
+<!--cierra formulario--> 
+<table id="table_id" class="display">
+    <thead>
+        <tr>
+            <th>Licencia</th>
+            <th>Periodo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+        </tr>
+       
+    </tbody>
+</table>    
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="">
