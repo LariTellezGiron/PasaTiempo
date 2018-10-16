@@ -17,6 +17,8 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="css/colors/default-dark.css" id="theme" rel="stylesheet">
+    
+    <link rel=StyleSheet href="css/estilos.css" type="text/css">  
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -224,7 +226,9 @@
                                                     </h5>
                                                 </div>
                                                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high. </div>
+                                                    <div class="card-body"> Anim pariatur cliche 
+   
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="card">
@@ -560,7 +564,7 @@
                 <!-- ============================================================== -->
                 <div class="row page-titles">
                     <div class="col-md-5 align-self-center">
-                        <h3 class="text-themecolor">Blank Page</h3>
+                        <h3 class="text-themecolor">Registro</h3>
                     </div>
                     <div class="col-md-7 align-self-center">
                         <ol class="breadcrumb">
@@ -585,8 +589,81 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <div class="card-body">
-                                This is some text within a card block.
+                            <div class="card-body">                                   <!--contenido Inicio-->
+                                <div id="principal">
+<!-- Formulario-->
+    <label id="txtdatos">Mis Datos</label>
+    <div id="formulario">    
+<form>
+    <div class="" id="f1">
+        <label class="texto">Nombre</label>
+        <div class="form-group col-md-6">
+            <label for="txtnombre">Nombre</label>
+            <input type="text" class="form-control" id="txtnombre" placeholder="Nombre">
+        </div>
+        
+        <div class="form-group col-md-6">
+            <label for="txtapellidos">Apellidos</label>
+            <input type="text" class="form-control" id="txtapellidos" placeholder="Apellidos">
+        <button type="button" class="btn btn-primary btnActualizar">Actualizar</button>
+        </div>
+    </div>
+    <div class="form-group" id="f2">
+        <label class="texto">Usuario/E-mail</label>
+        <div class="form-group col-md-6">
+            <label for="txtmail">Email</label>
+            <input type="email" class="form-control" id="txtmail" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="txtusuario">Usuario</label>
+            <input type="text" class="form-control" id="txtusuario" placeholder="Usuario">
+        <button type="button" class="btn btn-primary btnActualizar">Actualizar</button>
+        </div>
+    </div>
+        <div class="form-group" id="f3">
+        <label class="texto">Contraseña</label>
+        <div class="form-group col-md-6">
+            <label for="txtcontra">contraseña</label>
+            <input type="password" class="form-control" id="txtcontra" placeholder="Contraseña">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="txtcontra2">Password</label>
+            <input type="password" class="form-control" id="txtcontra2" placeholder="Repetir Contraseña">
+       <button type="button" class="btn btn-primary btnActualizar">Actualizar</button>
+            </div>
+    </div>
+
+</form>
+        
+</div>        
+<!--cierra formulario-->    
+  <div class="" id="f4">
+
+        
+        <div class="form-group col-md-6" id="licen">
+            <label for="txtlicencia">Mis Licencias</label>
+            <input type="text" class="form-control" id="txtlicencia" placeholder="Agregar Licencia">
+        <button type="button" class="btn btn-primary btnActualizar" id="lic">Agregar</button>
+        </div>
+    </div> 
+<!--cierra formulario--> 
+<table id="table_id" class="display">
+    <thead>
+        <tr>
+            <th>Licencia</th>
+            <th>Periodo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+        </tr>
+       
+    </tbody>
+</table>
+                                    </div>
+                                                    <!--contenido Fin--> 
                             </div>
                         </div>
                     </div>
