@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+
+<img name="parpadear" src="descarga.jpeg" alt="imagen parpadeante" />
+
+
+<input type=image src="descarga.jpeg" width="50" height="30" align="center" >
+
+
+<div id="start-timer">START TIMER</div>
+<div id="stop-timer">STOP TIMER</div>
+
+
+</body>
+<style type="text/css">
+	
+#start-timer {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 60px;
+    left: 25px;
+    cursor: pointer;
+}
+
+#stop-timer {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 85px;
+    left: 25px;
+    cursor: pointer;
+}
+	
+</style>
+<script type="text/javascript">
+function parpadea() {
+var imagen = document.images["parpadear"];imagen.style.visibility = (imagen.style.visibility == "visible") ? "hidden" : "visible";
+}
+setInterval("parpadea()", 100); //Aquí definimos el tiempo en milisegundos.
+</script>
+</html>

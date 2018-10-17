@@ -17,40 +17,94 @@
   
 </style>
 <body>
-<div id="principal" style='display:block;'>
-<button id="centrado" type="button" class="btn btn-primary" onclick="mostrar()">basico</button>
-<button id="centrado" type="button" class="btn btn-secondary" onclick="mostrar2()">medio</button>
-<button id="centrado" type="button" class="btn btn-success" onclick="ejemplo2()" >avanzado</button>
+	<div id="principal" style='display:block;'>
+	<button id="centrado" type="button" class="btn btn-primary" onclick="mostrar()">basico</button>
+	<button id="centrado" type="button" class="btn btn-secondary" onclick="mostrar2()">medio</button>
+	<button id="centrado" type="button" class="btn btn-success" onclick="mostrar3()" >avanzado</button>
 </div>
-<div id="segundo"  style='display:none;'>
-<button id="centrado" type="button" class="btn btn-success" onclick="asignar()">suma</button>
+<div id="operacionesbasicas"  style='display:none;'>
+	<button id="centrado" type="button" class="btn btn-success" onclick="asignarbasico()">suma</button>
+	<button id="centrado" type="button" class="btn btn-danger">resta</button>
+	<button id="centrado" type="button" class="btn btn-warning">multiplicasion</button>
+	<button id="centrado" type="button" class="btn btn-info">division</button>
+</div>
+
+<div id="operacionesmedio"  style='display:none;'>
+	<button id="centrado" type="button" class="btn btn-success" onclick="asignarmedio()">suma</button>
+	<button id="centrado" type="button" class="btn btn-danger">resta</button>
+	<button id="centrado" type="button" class="btn btn-warning">multiplicasion</button>
+	<button id="centrado" type="button" class="btn btn-info">division</button>
+</div>
+<div></div>
+<div id="operacionesavanzadas"  style='display:none;'>
+<button id="centrado" type="button" class="btn btn-success" onclick="asignaravanzado()">suma</button>
 <button id="centrado" type="button" class="btn btn-danger">resta</button>
 <button id="centrado" type="button" class="btn btn-warning">multiplicasion</button>
 <button id="centrado" type="button" class="btn btn-info">division</button>
 </div>
+
+
 <div>
 	<textarea id="area" style='display:none;'> mi area</textarea> 
+	<textarea id="area2" style='display:none;'> mi area</textarea> 
+
 </div>
 </body>
 <script>
 var aleatorio1,  aleatorio2;
 
-  	function mostrar(){
+  function mostrar(){
 	document.getElementById('principal').style.display = 'none';
 	document.getElementById('area').style.display = 'block';
-	document.getElementById('segundo').style.display = 'block';}
+	document.getElementById('area2').style.display = 'block';
+	document.getElementById('operacionesbasicas').style.display = 'block';}
 
-function generaraleatorio() {
-return (Math.round(Math.random()*10));
+ 	function mostrar2(){
+	document.getElementById('principal').style.display = 'none';
+	document.getElementById('area').style.display = 'block';
+	document.getElementById('area2').style.display = 'block';
+	document.getElementById('operacionesmedio').style.display = 'block';}
 
+ 	function mostrar3(){
+	document.getElementById('principal').style.display = 'none';
+	document.getElementById('area').style.display = 'block';
+	document.getElementById('area2').style.display = 'block';
+	document.getElementById('operacionesavanzadas').style.display = 'block';}
+
+
+function generaraleatorio1() {	
+	return (Math.round(Math.random()*10));
+};
+function generaraleatorio2() {	
+	return (Math.round(Math.random()*100));
+};
+function generaraleatorio3() {	
+	return (Math.round(Math.random()*1000000));
 };
 
-function asignar(){
-	 aleatorio1=generaraleatorio();
-	 aleatorio2=generaraleatorio();
-document.getElementById("area").value=aleatorio1 +"+"+ aleatorio2;
+function asignarbasico(){
+
+	 aleatorio1=generaraleatorio1();
+	 aleatorio2=generaraleatorio1();
+document.getElementById("area").value=aleatorio1 +" + "+ aleatorio2;
 	//alert("Número aleatorio entre 0 y 10:");
 }
+function asignarmedio(){
+
+	 aleatorio1=generaraleatorio2();
+	 aleatorio2=generaraleatorio2();
+document.getElementById("area").value=aleatorio1 +" + "+ aleatorio2;
+	//alert("Número aleatorio entre 0 y 10:");
+}
+function asignaravanzado(){
+
+	 aleatorio1=generaraleatorio3();
+	 aleatorio2=generaraleatorio3();
+document.getElementById("area").value=aleatorio1 +" + "+ aleatorio2;
+	//alert("Número aleatorio entre 0 y 10:");
+}
+
+
 function ale(){
 	alert("alerta");
 
