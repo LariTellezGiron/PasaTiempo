@@ -1,0 +1,47 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Roboto Slab', serif;
+
+}
+#mb{
+    height: 500px;
+    width: 800px;
+}
+#cformato{
+border-left: 8px solid orange;
+height: 200px;    
+}
+#cformato2{
+border-left: 8px solid blue;
+height: 200px;    
+}
+
+#txtp1{
+font-size: 25px;
+position: absolute;
+margin-left: 10px;    
+}
+#txtdes{
+position: absolute;
+font-size: 20px;    
+margin-top: 8px;
+margin-left: 150px;    
+}
+#btnFormato{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+#txtarchivo{
+    position: absolute;
+    margin-top: 50px;
+    width: 500px;
+    
+}
+#btnBuscar{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 45px;
+}
