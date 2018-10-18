@@ -78,3 +78,7 @@ width: 1000px;
 .btn{
 background: #242a33;    
 }
+#tabla{
+position: absolute;
+margin-top: 550px;    
+}
