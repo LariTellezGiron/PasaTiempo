@@ -9,11 +9,11 @@ font-family: 'Roboto Slab', serif;
     width: 800px;
 }
 #cformato{
-border-left: 8px solid blue;
+border-left: 8px solid #242a33;
 height: 200px;    
 }
 #cformato2{
-border-left: 8px solid blue;
+border-left: 8px solid #745af2;
 height: 200px;    
 }
 

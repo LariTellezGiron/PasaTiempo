@@ -30,7 +30,7 @@
     font-size: 35px;
     margin-left: 50px;
     margin-top: 70px;
-    color: dodgerblue;
+    color: #242a33;
 }
 #materia{
 position: absolute;    
@@ -46,6 +46,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 #grupo{
     font-size: 30px;
     margin-left: 30px;
+    color: #242a33;
 
 }
 #divN{
@@ -53,7 +54,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     margin-top: 10px;
     height: 100px;
     width: 698px;
-    background: #FF8316;
+    background: #242a33;
 }
 #ciclo{
 font-size: 30px;
@@ -63,12 +64,15 @@ color: white;
 }
 #fechas{
     margin-top: 160px;
+    color: #242a33;
+    
 }
 .formato{
 font-size: 20px;
 color: dodgerblue;
 margin-top: -10px;    
-margin-left: 140px;    
+margin-left: 140px; 
+color: #242a33;    
 }
 #llave{
     position: absolute;
@@ -80,17 +84,19 @@ margin-left: 140px;
 position: absolute;
 font-size: 25px;    
 margin-top: 48px;
-margin-left: -230px;    
+margin-left: -230px;
+color: #242a33;    
 }
 #botones{
     position: absolute;
     margin-top: 110px;
     height: 100px;
     width: 698px;
-    background: #FF8316;
+    background: #242a33;
+    color: #242a33;
     z-index: 0;
 }
 #btnG{
     
-    background: #FF8316;
+    background: #242a33;
 }
