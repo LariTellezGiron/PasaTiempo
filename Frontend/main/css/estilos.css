@@ -82,3 +82,7 @@ background: #242a33;
 position: absolute;
 margin-top: 550px;    
 }
+.card{
+    background: #f4f6f9;
+    padding: 0;
+}

@@ -100,3 +100,7 @@ color: #242a33;
     
     background: #242a33;
 }
+.card-body{
+    background: #f4f6f9;
+    padding: 0;
+}

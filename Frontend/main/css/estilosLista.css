@@ -1,3 +1,7 @@
 #myTable{
     font-size: 25px;
 }
+.card-body{
+    background: #f4f6f9;
+    padding: 0;
+}
