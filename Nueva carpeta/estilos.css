@@ -1,0 +1,97 @@
+*{
+margin: 0 auto;
+width:0 auto;
+}
+p{
+	color:red;
+	
+}
+
+body{ 
+background-color:black;
+color:brown;
+font-size:16 px;
+
+}
+#tiempo
+{
+	padding: 5px;
+	margin: 2px;
+	border-radius: 2px;
+border-style: solid;
+height:40px;
+width:80px;
+display: block;
+}
+#minutos{
+	padding:5px;
+}
+
+#segundos{
+	padding:5px;
+	}
+#tablero .row{
+		padding:0px;
+		width:100%;
+		position: center;
+		height:100px;
+		text-align:center
+	}
+	
+#tablero .row .celda{
+	margin: 1px;
+	padding: 10px;
+	height: 90px;
+	width: 90px;
+	display: inline-block;
+
+	border-style: solid;
+	
+}
+#tablero .row .celda:hover{
+	background-color:blue;
+	
+}
+#tablero .row .celda img{
+	width:100%;
+	height:115%;
+	position: center;
+	top: 0px;
+	left:30px;
+	text-align: center;
+}
+
+.roja{
+	background-color:yellow;
+}
+.amarilla{
+	background-color:yellow;
+}
+#mensaje{
+	float:left;
+	border-radius: 10px;
+	border-style: solid;
+	display: none;
+	width: 200px;
+	height: 60px;
+	color:yellow;
+	background-color: red;
+	font-size: 24px;
+	text-align: center;
+
+
+}
+#boton{
+	clear: both;
+	float:left;
+	border-radius: 10px;
+	border-style: solid;
+	display: none;
+	width: 200px;
+	height: 50px;
+	padding: 2px;
+	color:yellow;
+	background-color: red;
+	font-size: 24px;
+	text-align: center;
+}

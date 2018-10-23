@@ -32,7 +32,7 @@ document.getElementById(comidaF+","+comidaC).style .background=colorComida
 function capturaTecla(){
 var tecla=event.keyCode
 
-if(tecla==49 && direccion!=2){
+if(tecla==49 && direccion!=2){5
 direccion=4
 }else if(tecla==50 && direccion!=1){
 direccion=3
@@ -53,7 +53,7 @@ for(c=0;c<cols;c++){
 document.write("<td width=4 height=4 id="+f+","+c+"></td>")
 }
 }
-document.write("</table><font face=Verdana size=2><br>Powered by Ruchu<br><b><span id=puntos>0</span></b></font></center>")
+document.write("</table><font face=Verdana size=2><br><b><span id=puntos>0</span></b></font></center>")
 document.getElementById("tablero").style.background=colorTablero
 }
 
@@ -128,7 +128,7 @@ if(pisadoPosProhibida()==true){
 //si esto ocurre mato temporizador
 window.clearInterval(init)
 //alert("Game Over.")
- document.getElementById("msg-final").innerHTML = "Game Over o(╥﹏╥)o";
+ document.getElementById("msg-final").innerHTML = "Game Over";
 }else{
 pintaSerp()
 }
@@ -143,7 +143,7 @@ var tamCTablero=26//tamaño en columnas para el tablero de juego
 var tamFTablero=15//tamaño en filas para el tablero de juego
 var comidaF//posicion en fila para situar la comida
 var comidaC//posicion en columna para situar la comida
-var colorTablero="#000000"
+var colorTablero="blue"
 var colorSerp="#ffffff"
 var colorComida="#888800"
 var direccion=2//direccion serpiente. 1=arriba,2=derecha,3=abajo,4=izquierda
