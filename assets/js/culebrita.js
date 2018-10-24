@@ -88,7 +88,8 @@ posisACrecer=3
 generaPapeo()
 }else if(colisionSerp()==true){
 return true
-}else if(serpF[0]>tamFTablero || serpF[0]<0 || serpC[0]>tamCTablero || serpF[0]<0) {
+}else if(serpF[0]>tamFTablero || serpF[0]<0 || serpC[0]>tamCTablero || serpC[0]<0) {
+	
 return true
 }
 }
@@ -113,6 +114,7 @@ posisACrecer=posisACrecer-1
 numTemp=0
 }else{
 document.getElementById(serpF[serpF.length-1]+","+serpC[serpF.length-1]).style.background=colorTablero;
+
 numTemp=1
 }
 var longSerp=serpF.length-numTemp
