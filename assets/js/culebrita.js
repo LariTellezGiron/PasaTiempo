@@ -60,7 +60,7 @@ document.getElementById("tablero").style.background=colorTablero
 //recorre los arrays de la serp(sus posiciones en tablero) y las pinta
 function pintaSerp(){
 for(i=0;i<serpF.length;i++){
-document.getElementById(serpF[i]+","+serpC[i]).style.background=colorSerp
+document.getElementById((serpF[i])+","+(serpC[i])).style.background=colorSerp;
 }
 }
 
@@ -112,7 +112,7 @@ if(posisACrecer>0){
 posisACrecer=posisACrecer-1
 numTemp=0
 }else{
-document.getElementById(serpF[serpF.length-1]+","+serpC[serpF.length-1]).style.background=colorTablero
+document.getElementById(serpF[serpF.length-1]+","+serpC[serpF.length-1]).style.background=colorTablero;
 numTemp=1
 }
 var longSerp=serpF.length-numTemp
@@ -130,7 +130,7 @@ window.clearInterval(init)
 //alert("Game Over.")
  document.getElementById("msg-final").innerHTML = "Game Over";
 }else{
-pintaSerp()
+pintaSerp();
 }
 }
 
