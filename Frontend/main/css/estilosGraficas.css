@@ -1,0 +1,10 @@
+@keyframes mostrar {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* The element to apply the animation to */
+.card-body {
+    animation-name: mostrar;
+    animation-duration: 2s;
+}
