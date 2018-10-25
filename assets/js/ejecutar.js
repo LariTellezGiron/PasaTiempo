@@ -75,7 +75,7 @@ function ejecutar(){
 	
 	LimpiaReloj();
 	IniciaReloj();
-	color="red";
+	color="white";
 	IniciarTablero(color);
 }
 

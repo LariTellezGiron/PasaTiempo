@@ -27,6 +27,7 @@ if (jugador==1) {
 		//pintamos la celda
 		PintarCelda(x,y,"blue",jugador);
 		casillapte--;
+		
 		Comprobar(x,y,jugador);
 		jugador=2;  
 }
@@ -136,7 +137,7 @@ function ejecutar(){
 	
 	LimpiaReloj();
 	IniciaReloj();
-	color="red";
+	color="white";
 	IniciarTablero(color);
 }
 
