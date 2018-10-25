@@ -75,7 +75,7 @@ display: block;
 	width: 200px;
 	height: 60px;
 	color:yellow;
-	background-color: red;
+	background-color: green;
 	font-size: 24px;
 	text-align: center;
 
@@ -91,7 +91,7 @@ display: block;
 	height: 50px;
 	padding: 2px;
 	color:yellow;
-	background-color: red;
+	background-color: black;
 	font-size: 24px;
 	text-align: center;
 }
@@ -129,4 +129,10 @@ display: block;
   color:#fff;
   text-decoration:none;
   padding:5px 5px 5px 0;
+}
+
+#font{
+	background-color: black;
+	width: 340px;
+	height: 345px;
 }
