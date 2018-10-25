@@ -8,7 +8,7 @@
     
      <FRAMESET ROWS="10%, *,5%" >
     <FRAME name="Titulo" src=""></FRAME>
-    <FRAME name="Contenido" src="culebrita.html"></FRAME> 
+    <FRAME id="frame"    name="Contenido" src="culebrita.html"></FRAME> 
     <FRAME name="Pie" src=""></FRAME> 
       </FRAMESET> 
     
@@ -16,11 +16,22 @@
 
 <body>
 <script type="text/javascript" src="assets/js/culebrita.js"></script>
-
+ <button class="btn btn-info btn-responsive btninter" onclick="cambiarImagenJS();" style="clear: both; height: 120;  width: 300">CPU</button></a> <BR><BR>
 <link rel="stylesheet" type="text/css" href="assets/css/culebrita.css" />
 </html>
 <link rel="stylesheet" href=""><script src=""></script>
 </body>
+<script>
+//así con JS normal
+//accediendo directamente a src
+function cambiarImagenJS(){
+  document.getElementById("frame").src="gato.html";
+}
+ 
+//así con jQuery
+//haciendo uso de la función attr()
+}
+</script>
 </html>
 
     
