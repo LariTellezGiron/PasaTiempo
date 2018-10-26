@@ -4,7 +4,11 @@
 }
 
 /* The element to apply the animation to */
-.card {
+.cartas {
     animation-name: mostrar;
     animation-duration: 2s;
+}
+
+.imagen{
+    height: 150px;    
 }
