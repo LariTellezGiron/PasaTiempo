@@ -15,8 +15,6 @@
     <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/estilosbotones.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="css/colors/default-dark.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -588,18 +586,20 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                               <div class="col-lg-2 col-md-4">
-                                        <button type="button" class="btn btn-block btn-lg btn-secondary" id="matematicas">Matematicas</button>
+                                <label>Tipo de Actividad</label>
+                                <div class="form-group col-5">
+                                        
+                                        <select class="form-control" id="Tactividad">
+                                            <option>Relaciona columnas</option>
+                                            <option>Ordena Elementos</option>
+                                            <option>Pregunta abierta</option>
+                                            <option>Opcion Multiple</option>
+                                            
+                                        </select>
                                     </div>
-                                 <div class="col-lg-2 col-md-4">
-                                        <button type="button" class="btn btn-block btn-lg btn-secondary" id="espanol">Español</button>
-                                    </div>
-                                 <div class="col-lg-2 col-md-4">
-                                        <button type="button" class="btn btn-block btn-lg btn-secondary" id="ciencias">Ciencias</button>
-                                    </div>
-                                 <div class="col-lg-2 col-md-4">
-                                        <button type="button" class="btn btn-block btn-lg btn-secondary" id="historia">Historia</button>
-                                    </div>
+                                
+                                
+                                
                             </div>
                         </div>
                     </div>
