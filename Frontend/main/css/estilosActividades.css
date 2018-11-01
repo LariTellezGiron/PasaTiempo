@@ -48,3 +48,19 @@ position: absolute;
 #divSubir{
     margin-top: 50px;
 }
+.respuestas{
+    margin-top: 10px;
+}
+#txtR4{
+height: 100px;    
+}
+#btncrear{
+    margin-left: 330px;
+    margin-top: -35px;
+    position: absolute;
+}
+#btncancel{
+    margin-left: 700px;
+    margin-top: -35px;
+    position: absolute;
+}
