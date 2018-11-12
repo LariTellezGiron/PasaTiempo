@@ -1,0 +1,36 @@
+#principal{
+    height: 600px;
+    width: 400px;
+    margin-left: 25%;
+}
+#pregunta{
+    height: 250px;
+    width: 250px;
+    font-size: 170px;
+    margin-top: 60px;
+    border-radius: 50%;
+    background: #9E4BA4;
+    position: absolute;
+    color: white;
+    
+}
+#txtExamen{
+    margin-top: 320px;
+    position: relative;
+    margin-left: -35%;
+}
+#dExamen{
+    margin-top: 20px;
+    position: relative;
+    margin-left: -35%;
+}
+#txtPasa{
+    margin-top: 330px;
+    position: relative;
+    margin-left: 7%;
+}
+#divPasa{
+     margin-top: 0px;
+    position: absolute;
+    margin-left: 1%;
+}
