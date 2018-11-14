@@ -1,12 +1,12 @@
 #principal{
-    height: 600px;
-    width: 400px;
+    height: 800px;
+    width: 200px;
     margin-left: 25%;
 }
 #pregunta{
-    height: 250px;
-    width: 250px;
-    font-size: 170px;
+    height: 150px;
+    width: 150px;
+    font-size: 94px;
     margin-top: 60px;
     border-radius: 50%;
     background: #9E4BA4;
@@ -15,22 +15,35 @@
     
 }
 #txtExamen{
-    margin-top: 320px;
+    margin-top: 228px;
     position: relative;
-    margin-left: -35%;
+    margin-left: 0%;
+    position: absolute;
 }
 #dExamen{
     margin-top: 20px;
     position: relative;
     margin-left: -35%;
+    position: absolute;
+    
 }
 #txtPasa{
-    margin-top: 330px;
+    margin-top: 231px;
     position: relative;
-    margin-left: 7%;
+    margin-left: -23%;
 }
-#divPasa{
+#divAbierta{
+     margin-top: 340px;
+    position: absolute;
+    margin-left: 41%;
+}
+#divLineas{
      margin-top: 0px;
     position: absolute;
-    margin-left: 1%;
+    margin-left: 41%;
+}
+#divOrdena{
+     margin-top: 340px;
+    position: absolute;
+    margin-left: 0%;
 }
