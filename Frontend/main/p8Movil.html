@@ -15,6 +15,7 @@
     <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/estilosp8.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="css/colors/default-dark.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -23,13 +24,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<link href="../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/plugins/select2/dist/css/select2.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/plugins/switchery/dist/switchery.min.css" rel="stylesheet" />
-    <link href="../assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
-    <link href="../assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput.css" rel="stylesheet" />
-    <link href="../assets/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
-    <link href="../assets/plugins/multiselect/css/multi-select.css" rel="stylesheet" type="text/css" />    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">    
 </head>
 
 <body class="fix-header card-no-border fix-sidebar">
@@ -567,7 +562,7 @@
                 <!-- ============================================================== -->
                 <div class="row page-titles">
                     <div class="col-md-5 align-self-center">
-                        <h3 class="text-themecolor">Pregunta</h3>
+                        <h3 class="text-themecolor">Blank Page</h3>
                     </div>
                     <div class="col-md-7 align-self-center">
                         <ol class="breadcrumb">
@@ -592,53 +587,34 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <div class="card-body">
-                                 <div class="row">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-body">
-                <form class="form-group m-t-40">
-                 <div class="form-group col-6">
-                                        <label>Titulo</label>
-                                        <input type="text" class="form-control form-control" value=""> </div>  
-                   <div class="form-group col-6">
-                                        <label>Descripción</label>
-                                        <textarea class="form-control" rows="5"></textarea>
-                                    </div>
-                     
-                                <br>
-                    
-                       <form class="form-material m-t-40 row">
-                                        <div class="form-group col-md-3 m-t-20">
-                                        <select class="form-control">
-                                            <option>Visible para...</option>
-                                            <option>Alumnos</option>
-                                            <option>Maestros</option>
-                                            <option>Ambos</option>
-                                            
-                                        </select>
-                                        
-                                    </div>
-                                        
-                                    
-                                   
-                                </form>
-                     <div class="form-group col-6">
-                                        <label>Comentarios</label>
-                                        <textarea class="form-control" rows="5"></textarea>
-                                    </div>
-                    <div class="form-group">
-                                    <label>Agrega una imagen</label>
-                                    <input type="file" class="form-control" id="exampleInputFile" aria-describedby="fileHelp">
-                                </div>
-                    <label>Link del Video <span class="help"> </span></label>
-                                        <input type="text" class="form-control form-control-line" value="www.youtube.com"> 
-                    
-                </form>    
-                </div>
-            </div>
-        </div>
+                            <div class="card-body" style="height: 1000px;">
+                                <h1 id="titulo">Se ha Guardado con Exito!!!</h1>
+                                <h3 id="sub">'ejercicio 1'</h3>
+                                <div id="divExamen">
+   
+<a id="Modificar" href="#" class="fa fa-edit"><center></center></a>
+    <h1 id="txtExamen">Modificar</h1>
+    
     </div>
+   <div id="divPreview">
+   
+<a id="ver" href="#" class="ti ti-eye"><center></center></a>
+    <h1 id="txtVer">Ver</h1>
+    
+    </div>   
+<div id="divEmpezar">
+   
+<a id="Empezar" href="#" class="ti ti-control-play"><center></center></a>
+    <h1 id="txtEmpezar">Empezar</h1>
+    
+    </div>   
+<div id="divCompartir">
+   
+<a id="Compartir" href="#" class="ti ti-sharethis"><center></center></a>
+    <h1 id="txtCompartir">Compartir</h1>
+    
+    </div>                                
+                                    
                             </div>
                         </div>
                     </div>
